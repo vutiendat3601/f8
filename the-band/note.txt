@@ -1,0 +1,7 @@
+* The components encounter in a website:
+    - Header
+    - Navigation
+    - Breadcrumb
+    - Sidebar
+    - Slider
+    - Footer
