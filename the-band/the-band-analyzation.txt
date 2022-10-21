@@ -1,0 +1,17 @@
+* The Band website:
+=> Analyzation: // OK
+    - Header
+    - Slider
+    - Content:
+        + About
+        + Tour
+        + Contact
+        + Image
+        + Footer
+    - Footer
+
+=> Building base:
+
+=> Building components:
+
+=> Finalizing website:
