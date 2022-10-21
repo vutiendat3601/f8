@@ -10,7 +10,7 @@
         + Footer
     - Footer
 
-=> Building base:
+=> Building base: // OK
 
 => Building components:
 
