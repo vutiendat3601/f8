@@ -195,7 +195,8 @@ html {
 }
 
 #content {
-    height: 1000px;
+    /* height: 1000px; */
+    /* overflow: hidden; */
 }
 
 #content .content-section {
@@ -333,6 +334,7 @@ html {
     display: inline-block;
     margin-top: 20px;
     cursor: pointer;
+    border: none;
 }
 
 .tour-section .place-buy-btn:hover {
@@ -354,6 +356,14 @@ html {
 
 #footer {
     height: 80px;
+    text-align: center;
+    padding: 16px;
+    font-size: 32px;
+}
+
+#footer a {
+    text-decoration-line: none;
+    color: #000;
 }
 
 .modal {
@@ -450,11 +460,18 @@ html {
     color: #2196f3;
 }
 
-.content-section .contact-content {
+.contact-section {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px;
+    width: 80%;
+}
+
+.contact-section .contact-content {
     margin-top: 48px;
 }
 
-.content-section .contact-form .send-btn {
+.contact-section .contact-form .send-btn {
     float: right;
 }
 
