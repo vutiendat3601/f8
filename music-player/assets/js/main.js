@@ -14,6 +14,8 @@ const nextBtn = $(".btn-next");
 const randomBtn = $(".btn-random");
 const repeatBtn = $(".btn-repeat");
 
+const contextPath = "https://vutiendat3601.github.io/f8/music-player";
+
 let songList = $$(".song");
 
 let timeStartValue = 0;
@@ -145,7 +147,11 @@ const app = {
             get: function () {
                 return this.songs[this.currentIndex];
             }
-        })
+        });
+        this.songs.map(song => {
+            song.location = `${contextPath}${song.location}`;
+            song.thumbnail = `${contextPath}${song.thumbnail}`;
+        });
     },
     handlEvents: function () {
         const cd = $(".cd");
