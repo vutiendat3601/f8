@@ -14,6 +14,6 @@
     - Style
 
 * Task rules:
-    - From outside to inside
     - From up to down
     - From overview to detail
+    - From outside to inside

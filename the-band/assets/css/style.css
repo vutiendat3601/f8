@@ -164,7 +164,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
-    background-image: url('/the-band/assets/img/slider/chicago.jpg');
+    background-image: url('../img/slider/chicago.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -191,12 +191,8 @@ html {
 #text-description {
     margin-bottom: 48px;
     width: 100%;
-    background-color: rgb(8, 7, 7);
-}
-
-#content {
-    /* height: 1000px; */
-    /* overflow: hidden; */
+    /* background-color: rgb(8, 7, 7); */
+    text-shadow: 0 0 9px #000;
 }
 
 #content .content-section {
@@ -364,6 +360,10 @@ html {
 #footer a {
     text-decoration-line: none;
     color: #000;
+}
+
+#footer a:hover {
+    opacity: 0.6;
 }
 
 .modal {

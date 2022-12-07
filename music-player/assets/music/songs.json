@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "24h",
+        "singer": "LyLy",
+        "location": "/assets/music/24h_lyly.mp3",
+        "thumbnail": "../img/song/youtube.png"
+    },
+    {
+        "id": 2,
+        "name": "ĐỪNG YÊU NỮA, EM MỆT RỒI",
+        "singer": "MIN",
+        "location": "/assets/music/dung-yeu-nua-em-met-roi_min.mp3",
+        "thumbnail": "../img/song/youtube.png"
+    },
+    {
+        "id": 3,
+        "name": "Nụ Cười 18 20",
+        "singer": "Doãn Hiếu",
+        "location": "/assets/music/nu-cuoi-18-20_doan-hieu.mp3",
+        "thumbnail": "../img/song/youtube.png"
+    },
+    {
+        "id": 4,
+        "name": "Tự Sự",
+        "singer": "Orange",
+        "location": "/assets/music/tu-su_orange.mp3",
+        "thumbnail": "../img/song/youtube.png"
+    },
+    {
+        "id": 5,
+        "name": "Vợ Tuyệt Vời Nhất",
+        "singer": "Vũ Duy Khánh",
+        "location": "/assets/music/vo-tuyet-voi-nhat_vu-duy-khanh.mp3",
+        "thumbnail": "../img/song/youtube.png"
+    }
+]
