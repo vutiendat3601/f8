@@ -150,6 +150,13 @@ header h2 {
     cursor: pointer;
 }
 
+.upload {
+    width: 100%;
+}
+
+.upload-file {
+}
+
 /* PLAYLIST */
 .playlist {
     margin-top: 408px;

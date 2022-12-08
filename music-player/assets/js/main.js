@@ -13,6 +13,8 @@ const preBtn = $(".btn-prev");
 const nextBtn = $(".btn-next");
 const randomBtn = $(".btn-random");
 const repeatBtn = $(".btn-repeat");
+const uploadInp = $("#upload-file");
+const uploadBtn = $(".btn-upload");
 
 const contextPath = "https://vutiendat3601.github.io/f8/music-player";
 
@@ -95,6 +97,20 @@ const app = {
             "singer": "Bùi Trường Linh",
             "location": "/assets/music/duong-toi-cho-em-ve_bui-truong-linh.mp3",
             "thumbnail": "/assets/img/song/duong-toi-cho-em-ve_thumbnail.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Mình Yêu Từ Bao Giờ",
+            "singer": "Miu Lê",
+            "location": "/assets/music/minh-yeu-tu-bao-gio_miu-le.mp3",
+            "thumbnail": "/assets/img/song/minh-yeu-tu-bao-gio_thumbnail.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Mặt Mộc",
+            "singer": "VAnh",
+            "location": "/assets/music/mat-moc_vanh.mp3",
+            "thumbnail": "/assets/img/song/mat-moc_thumbnail.jpg"
         }],
     preSong: function () {
         this.currentIndex--;
