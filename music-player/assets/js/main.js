@@ -111,6 +111,13 @@ const app = {
             "singer": "VAnh",
             "location": "/assets/music/mat-moc_vanh.mp3",
             "thumbnail": "/assets/img/song/mat-moc_thumbnail.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Bài Này Không Để Đi Diễn",
+            "singer": "Anh Tú",
+            "location": "/assets/music/mat-moc_vanh.mp3",
+            "thumbnail": "/assets/img/song/mat-moc_thumbnail.jpg"
         }],
     preSong: function () {
         this.currentIndex--;
