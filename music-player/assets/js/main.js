@@ -116,8 +116,8 @@ const app = {
             "id": 11,
             "name": "Bài Này Không Để Đi Diễn",
             "singer": "Anh Tú",
-            "location": "/assets/music/mat-moc_vanh.mp3",
-            "thumbnail": "/assets/img/song/mat-moc_thumbnail.jpg"
+            "location": "/assets/music/bai-nay-khong-de-di-dien_anh-tu.mp3",
+            "thumbnail": "/assets/img/song/bai-nay-khong-de-di-dien_thumbnail.jpg"
         }],
     preSong: function () {
         this.currentIndex--;
